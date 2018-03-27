@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QrCodeExample</string>
+
+    <!--Related to signUp screen-->
+    <string name="sdUserImage">Select Image</string>
+    <string name="etFirstName">Enter Full Name</string>
+    <string name="etId">Enter Your Id</string>
+    <string name="btnScanQr">Scan Qr Code</string>
+    <string name="btnGenerateQr">Generate Qr Code</string>
+</resources>

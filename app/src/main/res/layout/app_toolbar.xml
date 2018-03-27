@@ -1,0 +1,52 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/tbTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/dim_app_tb_tv"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/tbBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/tbNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/tbNotificationLive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tbSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/dim_app_tb_tv"
+        android:textStyle="bold"
+        android:visibility="gone" />
+</android.support.v7.widget.Toolbar>
+
+
